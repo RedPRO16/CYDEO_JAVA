@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/CYDEO_JAVA.iml" filepath="$PROJECT_DIR$/.idea/CYDEO_JAVA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaPractice/JavaPractice.iml" filepath="$PROJECT_DIR$/JavaPractice/JavaPractice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaProgramming/JavaProgramming.iml" filepath="$PROJECT_DIR$/JavaProgramming/JavaProgramming.iml" />
+    </modules>
+  </component>
+</project>
