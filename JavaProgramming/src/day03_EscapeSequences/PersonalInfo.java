@@ -10,3 +10,12 @@ public class PersonalInfo {
         System.out.println("SSN: 172-156-675");
     }
 }
+ /*
+     1. Create a class called PersonalInfo and print followings:
+						name
+                        gender
+                        date of birth
+                        address
+                        phone number
+                        SSN
+*/
