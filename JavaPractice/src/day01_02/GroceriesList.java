@@ -1,3 +1,5 @@
+package day01_02;
+
 public class GroceriesList {
     public static void main(String[] args) {
         System.out.println("Apple: 10usd");

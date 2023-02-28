@@ -1,3 +1,5 @@
+package day01_02;
+
 public class Triangle {
     public static void main(String[] args) {
 
