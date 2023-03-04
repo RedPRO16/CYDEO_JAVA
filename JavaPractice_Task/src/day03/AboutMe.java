@@ -1,10 +1,11 @@
 package day03;
 
+import java.util.Arrays;
+
 public class AboutMe {
     public static void main(String[] args) {
-        System.out.println("Favorite music: \"classic\",\"jazz\"".);
-        System.out.println("Favorite book: Atomic habit");
-        System.out.println("Favorite quote: Time is value");
-        System.out.println("Favorite TV show: Dragons's Den");
+        for (String s : Arrays.asList("Favorite music: \"classic\",\"jazz\"", "Favorite book: Atomic habit", "Favorite quote: Time is value", "Favorite TV show: Dragons's Den")) {
+            System.out.println(s);
+        }
     }
 }
