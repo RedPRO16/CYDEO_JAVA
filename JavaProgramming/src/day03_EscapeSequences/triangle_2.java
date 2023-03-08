@@ -5,7 +5,7 @@ public class triangle_2 {
 
         //Escape sequence
         // \
-        System.out.println(/n);
+        System.out.println("/n");
     }
 }
 
