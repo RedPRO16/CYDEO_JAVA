@@ -1,6 +1,6 @@
 package day07_Operators;
 
-public class Warmup_tasks {
+public class Casting {
     public static void main(String[] args) {
         float averageScore = 20.5F;
 
