@@ -1,4 +1,4 @@
-package day01_02;
+package day01_02_JavaIntro;
 
 public class EmployeeInfo {
     public static void main(String[] args) {

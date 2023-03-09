@@ -1,4 +1,4 @@
-package day06;
+package day06_PrimitiveTypeCasting;
 
 public class BirthDay {
     public static void main(String[] args) {

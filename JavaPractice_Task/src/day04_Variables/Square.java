@@ -1,4 +1,4 @@
-package day04;
+package day04_Variables;
 
 public class Square {
     public static void main(String[] args) {
