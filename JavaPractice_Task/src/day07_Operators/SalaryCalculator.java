@@ -3,22 +3,24 @@ package day07_Operators;
 public class SalaryCalculator {
     public static void main(String[] args) {
 
-        int hourlyRate = 50;
-        int  weeklyHours = 45;
-        double stateTaxRate = 6;
-        double federalTaxRate = 26;
+        int hourlyRate = 50,
+            weeklyHours = 45;
+
+        double stateTaxRate = 6,
+                federalTaxRate = 26;
 
         int salaryBeforeTax = hourlyRate * weeklyHours * 52;
-        int stateTax = (int) (salaryBeforeTax * stateTaxRate/100);
-        int federalTax = (int) (salaryBeforeTax * federalTaxRate/100);
-        int totalTax = stateTax + federalTax;
-        int salaryAfterTax = salaryBeforeTax - totalTax;
+        double stateTax = salaryBeforeTax * stateTaxRate/100;
+        double federalTax = salaryBeforeTax * federalTaxRate/100;
+        double  totalTax = stateTax + federalTax;
+        double salaryAfterTax = salaryBeforeTax - totalTax;
 
-        System.out.println("salaryBeforeTax = " + salaryBeforeTax);
-        System.out.println("federalTax = " + federalTax);
-        System.out.println("stateTax = " + stateTax);
-        System.out.println("totalTax = " + totalTax);
-        System.out.println("salaryAfterTax = " + salaryAfterTax);
+        System.out.println("Gross pay is: $" + salaryBeforeTax);
+        System.out.println("State Tax = $" + stateTax);
+        System.out.println("Federal Tax = $" + federalTax);
+        System.out.println("Total Tax = $" + totalTax);
+
+        System.out.println("Net income = $" + salaryAfterTax);
 
     }
 }
@@ -44,8 +46,8 @@ Create a class called SalaryCalculator.java
 				Ex:
 					   hourlyRate = $50
 					   weeklyHours = 45
-					   stateTaxRate = 6 (given as percentage, you need to convert to decimal)
-					   federalTaxRate = 26 (given as percentage, you need to convert to decimal)
+					   stateTaxRate = 6% (given as percentage, you need to convert to decimal)
+					   federalTaxRate = 26% (given as percentage, you need to convert to decimal)
 
 				    output:
 				    	Gross pay is: $117000
