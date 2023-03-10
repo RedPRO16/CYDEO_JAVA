@@ -5,9 +5,14 @@ public class Temporary {
         int a = 10;
         int b = 15;
         int x = a;
+        //option 1
         a = b;
         b = x;
 
+        //option 2
+       /*  a += 5;
+         b -= 5;
+        */
         System.out.println("a = " + a);
         System.out.println("b = " + b);
 
