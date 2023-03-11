@@ -3,6 +3,11 @@ package day08_ifStatements;
 public class MedianNumber {
     public static void main(String[] args) {
         int a=30, b=45, c=60;
+        /*
+        in order for a to be the median number:
+            1. if c is the maximum number & b is the minimum number, then a is the median number.
+            2. if b is the maximum number & c is the minimum number, then a is the median number.
+         */
 
         if((a<b && a>c) || (a>c && a<b)){
             System.out.println(a+ " is median number");
@@ -13,11 +18,10 @@ public class MedianNumber {
         if((a<c && c<b) || (c>b) && (c<a)){
             System.out.println(c+ " is median number");
         }
-
-
-
     }
 }
+
+
  /*
  Create a class called MedianNumber. write a program that can find the median number between three DIFFERENT given integers
 
