@@ -3,7 +3,7 @@ package day08_ifStatements;
 public class MaxNumbers {
     public static void main(String[] args) {
         int n1 = 80,
-            n2 = 90;
+            n2 = 200;
 
         boolean n1Max = n1 > n2;
         boolean n2Max = n2 > n1;
