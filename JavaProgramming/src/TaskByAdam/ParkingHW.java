@@ -2,10 +2,18 @@ package TaskByAdam;
 //TODO HOMEWORK
 public class ParkingHW {
     public static void main(String[] args) {
+        int time = 8; // 0~24 hours
+        double fee = 0 ;
 
+        if(time>=0 && time<=24) {
+            fee = (time >= 6 && time <= 12)? 7.5 : 15;
+
+            System.out.println("Fee = " + fee);
+        }else {
+            System.out.println("Invalid Time");
+        }
     }
 }
-
 
 /*
 ```
