@@ -1,4 +1,4 @@
-package TaskbyAdam;
+package TaskByAdam;
 
 public class YearsAndDays {
     public static void main(String[] args) {

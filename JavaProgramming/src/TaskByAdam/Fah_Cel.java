@@ -1,4 +1,4 @@
-package TaskbyAdam;
+package TaskByAdam;
 
 public class Fah_Cel {
     public static void main(String[] args) {
