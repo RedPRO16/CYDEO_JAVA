@@ -1,5 +1,5 @@
 package TaskByAdam;
-//TODO HOMEWORK
+
 public class ParkingHW {
     public static void main(String[] args) {
         int time = 8; // 0~24 hours
