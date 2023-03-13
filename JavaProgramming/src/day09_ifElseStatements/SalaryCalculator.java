@@ -2,7 +2,26 @@ package day09_ifElseStatements;
 
 public class SalaryCalculator {
     public static void main(String[] args) {
+        double salary = 180_000;
+        double tax = 0;
+        Boolean isMarried = true; //single or married
 
+        if (salary >= 130000) {
+            tax = 0.35; //35%
+        } else if (salary >= 100000) {
+            tax = 0.30;
+        } else if (salary >= 80000) {
+            tax = 0.25;
+        } else {
+            tax = 0.20;
+        }
+
+        if (isMarried) {
+            tax -= 0.05; //5% extra discount
+        }
+        double salaryAfterTax = salary - (salary * tax);
+
+        System.out.println("salary after tax = " + salaryAfterTax);
     }
 }
 
