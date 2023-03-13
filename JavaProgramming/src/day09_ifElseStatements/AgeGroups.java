@@ -5,31 +5,31 @@ public class AgeGroups {
         int age = 20;
         String group = "";
 
-        if (age<=2){
+        if (age <= 2) {
             group = "infant";
-        }else if(age<=5){
-            group= "Toddler";
-        } else if (age<=9) {
-            group= "Kid";
-        } else if (age<=12) {
-            group= "Pre-Teen";
-        } else if (age<=17) {
-            group= "Teenage";
-        } else if (age<=20) {
-            group= "Young Adult";
-        } else if (age<=39) {
-            group= "Adult";
-        } else if (age<=49) {
-            group= "Young Middle-Aged Adult";
-        } else if (age<=54) {
+        } else if (age <= 5) {
+            group = "Toddler";
+        } else if (age <= 9) {
+            group = "Kid";
+        } else if (age <= 12) {
+            group = "Pre-Teen";
+        } else if (age <= 17) {
+            group = "Teenage";
+        } else if (age <= 20) {
+            group = "Young Adult";
+        } else if (age <= 39) {
+            group = "Adult";
+        } else if (age <= 49) {
+            group = "Young Middle-Aged Adult";
+        } else if (age <= 54) {
             group = "Middle-Aged Adult";
-        } else if (age<=64) {
+        } else if (age <= 64) {
             group = "Very Young Senior Citizen";
-        } else if (age<=74) {
+        } else if (age <= 74) {
             group = "Young Senior Citizen";
-        } else if (age<=84) {
+        } else if (age <= 84) {
             group = "Senior Citizen";
-        }else{
+        } else {
             group = "Old Senior Citizen";
         }
         System.out.println("group = " + group);
